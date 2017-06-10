@@ -9,17 +9,16 @@
 
 	<dependencyManagement>
 		<dependencies>
-
 			<dependency>
-				<groupId>ru.send-to.ee</groupId>
-				<artifactId>Project-dto</artifactId>
-				<version>0.0.1-SNAPSHOT</version>
+				<groupId>${groupId}</groupId>
+				<artifactId>${rootArtifactId}-dto</artifactId>
+				<version>${version}</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
-				<groupId>ru.send-to.ee</groupId>
-				<artifactId>Project-ejb</artifactId>
-				<version>0.0.1-SNAPSHOT</version>
+				<groupId>${groupId}</groupId>
+				<artifactId>${rootArtifactId}-ejb</artifactId>
+				<version>${version}</version>
 				<type>ejb</type>
 			</dependency>
 			<dependency>
