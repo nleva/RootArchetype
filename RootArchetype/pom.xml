@@ -4,7 +4,7 @@
 
 	<groupId>ru.send-to.archetypes</groupId>
 	<artifactId>root-pom-blank-javaee7</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<packaging>maven-archetype</packaging>
 	<parent>
 		<groupId>org.sonatype.oss</groupId>
@@ -25,7 +25,7 @@
 		<url>https://github.com/nleva/${project.name}</url>
 		<connection>scm:git:https://github.com/nleva/${project.name}.git</connection>
 		<developerConnection>scm:git:https://github.com/nleva/${project.name}.git</developerConnection>
-		<tag>ejb-plugin-javaee7-0.0.1</tag>
+		<tag>root-pom-blank-javaee7-0.0.1</tag>
 	</scm>
 	<developers>
 		<developer>
